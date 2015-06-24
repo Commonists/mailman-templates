@@ -1,0 +1,5 @@
+The <a href="https://commons.wikimedia.org/">Wikimedia Commons</a> is a shared media repository for all Wikimedia projects. It is also a project in its own right, as the stored media are cataloged and described by the community. Only content under free licenses can be uploaded to the Commons, and immediately becomes available on all wikis.
+
+The purpose of this mailing list is to discuss the organization of the content, to announce interesting projects, to debate required technical enhancements, to find ways to collaborate with other similar media archives, and so on.
+
+You may post messages in any language to this list. If you are bilingual or multilingual, please consider translating messages from one language into another so that other people can understand them. You may add a marker like [fr] or [de] to the subject line to denote the language of a message. This makes it easier for people to filter messages in languages which they do not understand.
