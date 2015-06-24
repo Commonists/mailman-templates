@@ -1,4 +1,4 @@
-mailman-templates
+mailman-template
 =================
 
 Simple, nice-looking  templates for Mailman. Customized for https://lists.wikimedia.org/mailman/listinfo/commons-l 
