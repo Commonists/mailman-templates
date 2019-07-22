@@ -57,6 +57,15 @@
         width: 1000px;
         margin: 0px auto;
       }
+ /** GREEN EFFECT */
+      .greeneff:hover {
+        background-color: #d4f8d4;
+      }
+
+/** GRAY EFFECT */
+      .grayeff:hover {
+        background-color: #f6f6f6;
+      }
 
 /** MENU */
 
@@ -203,15 +212,16 @@
           <br />
         <h3><MM-List-Description></h3>
         <p><MM-List-Info></p>
-        <ul>
-          <li>Visit the <MM-Archive><MM-List-Name> Archives</MM-Archive>. <MM-Restricted-List-Message></li>
+        <div class="grayeff"><ul>
+          <b><li>Visit the <MM-Archive><MM-List-Name> Archives</MM-Archive>. <MM-Restricted-List-Message></li></b>
           <li>Send email to <A HREF="mailto:<MM-Posting-Addr>"><MM-Posting-Addr></A>.</li>
          <li><a href="https://meta.wikimedia.org/wiki/Special:MyLanguage/Mailing_lists/List_info">Translate page</a>
-        </ul>
+        </ul></div>
       </div>
       <div id="two-column">
         <div class="box-content" id="subscribe">
           <h3 class="title title01">Subscribe</h3>
+          <div class="greeneff-disabled">
           <MM-Subscribe-Form-Start>
           <table>
             <tr><td>Your e-mail address:</td><td><MM-Subscribe-Box></td></tr>
@@ -232,6 +242,7 @@
           <!-- On the majority of lists this can be commented out as subscription rules will simply be confirm -->
           <MM-List-Subscription-Msg>
           <p style="text-align: center"><MM-Subscribe-Button><MM-Form-End></p>
+        </div>
         </div>
         <div class="box-content" id="members">
           <h3 class="title title03">List members</h3>
